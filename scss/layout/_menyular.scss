@@ -1,0 +1,108 @@
+#menyu {
+    background-image: url(../../img/menyular.jpg);
+    width: 100%;
+    height: 1034px;
+    margin-top: 152px;
+    h2{
+        font-size: 54px;
+        color: #fff;
+        text-align: center;
+        padding-top: 98px;
+        line-height: 64px;
+    }
+    .menucard{
+        margin-top: 138px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .card1{
+            width: 350px;
+            height: 510px;
+            background-color: rgb(255, 255, 255);
+            .cardimg{
+                img{
+                    width: 225px;
+                    margin: 50px 60px;
+                    height:225px;
+                }
+            }
+            .text{
+                h2{
+                    font-size: 26px;
+                    color: black;
+                    margin-top: -150px;
+                }
+                p{
+                    width: 200px;
+                    margin: 0 auto;
+                    text-align: center;
+                }
+            }
+            .bbttnn{
+                margin-top: 40px;
+                a{
+                    padding: 18px 75px;
+                    background-color:#D67E34;
+                    margin-left:60px;
+                    margin-top: 50px;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+@media only screen and(max-width:320px){
+    #menyu {
+        background-image: url(../../img/menyular.jpg);
+        width: 320px;
+        height: 838px;
+        margin-top: 152px;
+        h2{
+            font-size: 54px;
+            color: #fff;
+            text-align: center;
+            padding-top: 98px;
+            line-height: 64px;
+        }
+        .menucard{
+            margin-top: 65px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .card1{
+                width: 320px;
+                background-color: rgb(255, 255, 255);
+                flex-direction: column;
+                .cardimg{
+                    img{
+                        width: 225px;
+                        margin: 50px 50px;
+                        height:225px;
+                    }
+                }
+                .text{
+                    h2{
+                        font-size: 26px;
+                        color: black;
+                        margin-top: -150px;
+                    }
+                    p{
+                        width: 200px;
+                        margin: 0 auto;
+                        text-align: center;
+                    }
+                }
+                .bbttnn{
+                    margin-top: 40px;
+                    a{
+                        padding: 18px 75px;
+                        background-color:#D67E34;
+                        margin-left:45px;
+                        margin-top: 50px;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}

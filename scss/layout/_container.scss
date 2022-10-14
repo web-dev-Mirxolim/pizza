@@ -1,0 +1,34 @@
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+@media only screen and (max-width:992px) {
+    .container{
+        max-width: 992px;
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width:768px) {
+    .container{
+        max-width: 768px;
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width:576px) {
+    .container{
+        max-width: 576px;
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width:425px) {
+    .container{
+        max-width: 425px;
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width:350px) {
+    .container{
+        max-width: 350px;
+        margin: 0 auto;
+    }
+}

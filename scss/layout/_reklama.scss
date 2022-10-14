@@ -1,0 +1,74 @@
+#sec{
+    background-image: url(../../img/bac3.png);
+    width: 100%;
+    height: 400px;
+    .reklama{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .barchasi{
+            margin-top: 100px;
+            line-height: 58px;
+            gap: 20px;
+        }
+        .obuna{
+            color:#D67E34;
+            font-size: 28px;
+            width: 650px;
+        }
+        .rubl{
+            color: #fff;
+            margin-top: 20px;
+        }
+        a{
+            padding: 18px 30px;
+            background-color:#FF7400;
+            border-radius: 8px;
+            color: white;
+        }
+    }
+}
+@media only screen and (max-width:320px){
+    #sec{
+        background-image: url(../../img/bac3.png);
+        width: 320px;
+        height: 400px;
+        .reklama{
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            align-items: center;
+            .barchasi{
+                margin-top: 100px;
+                line-height: 58px;
+                gap: 20px;
+            }
+            .obuna{
+                color:#D67E34;
+                font-size: 20px;
+                width: 230px;
+                line-height: 34px;
+                margin-top: -85px;
+                margin-left: 20px;
+                text-align: center;
+            }
+            .rubl{
+                color: #fff;
+                width: 270px;
+                line-height: 32px;
+                font-size: 20px;
+                margin-top: 30px;
+                margin-left: 20px;
+            }
+            .zakaz{
+                margin-top: 80px;
+            }
+            a{
+                padding: 18px 30px;
+                background-color:#FF7400;
+                border-radius: 8px;
+                color: white;
+            }
+        }
+    }
+}
